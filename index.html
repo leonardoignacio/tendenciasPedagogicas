@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediação: Tendência Não Diretiva</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-blue': '#1E3A8A',
+                        'brand-orange': '#F97316',
+                        'brand-light': '#F8FAFC'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-brand-light text-gray-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Header, Timer & Navegação Ancorada -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap lg:flex-nowrap justify-between items-center gap-4">
+            <!-- Logo / Título -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-brand-blue rounded-full flex items-center justify-center text-white font-bold text-sm">EPT</div>
+            </div>
+            
+            <!-- Tabs renderizadas dinamicamente dentro do header -->
+            <nav class="flex-grow flex justify-center order-last lg:order-none w-full lg:w-auto overflow-x-auto no-scrollbar" id="tabs-container">
+                <!-- Abas inseridas pelo JS -->
+            </nav>
+
+            <!-- Timer -->
+            <div class="flex items-center gap-2 bg-gray-100 px-3 py-1.5 rounded-lg border border-gray-200 shrink-0">
+                <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span id="timer" class="text-xl font-mono font-bold text-gray-700 transition-colors duration-300">00:00</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="max-w-5xl mx-auto px-4 py-8 w-full flex-grow flex flex-col gap-6" id="app-content">
+        <!-- Conteúdo renderizado dinamicamente -->
+    </main>
+
+    <!-- Data Modules -->
+    <script src="data_intro.js"></script>
+    <script src="data_mapa.js"></script>
+    <script src="data_entrega.js"></script>
+    <!-- Core Application -->
+    <script src="app.js"></script>
+</body>
+</html>
