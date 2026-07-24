@@ -23,9 +23,14 @@ const dataMapa = {
                     </div>
                     <div class="p-6 bg-white rounded-b-xl">
                         <ul class="text-base lg:text-lg text-gray-700 space-y-5 list-disc pl-5 leading-relaxed">
-                            <li>Qual é a maior insegurança dele em relação ao futuro?</li>
-                            <li>Por que ele sente que o curso não se conecta com a vida dele?</li>
+                            <li>Quais são as maiores insegurança dos estudantes em relação ao futuro?</li>
+                            <li>Em que pontos podem sentir que as ações da escola não conectam em suas vida?</li>
                             <li>Qual peso ou pressão de fora ele carrega em silêncio?</li>
+                            <pre>
+                            .
+                            .
+                            .
+                            </pre>
                         </ul>
                     </div>
                 </div>
@@ -40,9 +45,14 @@ const dataMapa = {
                     </div>
                     <div class="p-6 bg-white rounded-b-xl">
                         <ul class="text-base lg:text-lg text-gray-700 space-y-5 list-disc pl-5 leading-relaxed">
-                            <li>Que tipo de escuta ele precisa que ainda não oferecemos?</li>
-                            <li>Como os professores podem atuar mais como "facilitadores"?</li>
-                            <li>O que daria sentido e propósito para ele não desistir?</li>
+                        <li>O que daria sentido e propósito para os estudantes não desistirem?</li>
+                            <li>Que tipo de escuta eles precisam que ainda não oferecemos?</li>
+                            <li>Como os educadores podem atuar mais como "facilitadores"?</li>
+                            <pre>
+                            .
+                            .
+                            .
+                            </pre>
                         </ul>
                     </div>
                 </div>

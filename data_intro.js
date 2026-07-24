@@ -13,7 +13,7 @@ const dataIntro = {
                 <summary class="font-bold text-brand-blue p-4 flex justify-between items-center select-none">
                     <span class="flex items-center gap-3">
                         <span class="bg-blue-200 text-brand-blue w-7 h-7 rounded-full flex items-center justify-center text-sm">1</span> 
-                        Leitura individual - 5m
+                        Leitura guiada - 5m
                     </span>
                     <svg class="w-5 h-5 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </summary>
@@ -42,7 +42,7 @@ const dataIntro = {
                     <div class="flex items-start gap-4">
                         <svg class="w-8 h-8 text-brand-orange shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path></svg>
                         <div>
-                            <p class="text-gray-700 text-lg">Compartilhe e consolide com o grupo as percepções que surgiram durante a reflexão individual. Lembre-se: não há respostas erradas, a essência é a escuta ativa e a empatia.</p>
+                            <p class="text-gray-700 text-lg">Multiplique com o grupo as percepções que surgiram durante a leitura guiada.</p>
                         </div>
                     </div>
                 </div>

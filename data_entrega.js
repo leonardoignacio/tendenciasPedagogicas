@@ -12,7 +12,9 @@ const dataEntrega = {
                 <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm relative">
                     <div class="absolute -top-4 -left-4 w-10 h-10 bg-brand-orange text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">1</div>
                     <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Apresentação (5 min)</h3>
-                    <p class="text-base text-gray-600 mb-4">Lembrem-se de amarrar as questões norteadoras com a solução encontrada no Mapa de Empatia.</p>
+                    - Meditem nos insights do Mapa de Empatia.<br>
+                    - Aprofundam-se no conceito da Tendência Renovadora Não Diretiva.<br>
+                    - Amarre as questões norteadoras com a apresentação.</p><br>
                     <div class="bg-white p-4 rounded border text-sm text-gray-600 italic shadow-sm">
                         <strong class="text-gray-700">Checklist:</strong> Papel da escola, Centro do processo, Aprendizagem e Papel do Professor.
                     </div>
@@ -21,13 +23,13 @@ const dataEntrega = {
                 <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm relative">
                     <div class="absolute -top-4 -left-4 w-10 h-10 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">2</div>
                     <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Produção Gráfica(Painel)</h3>
-                    <p class="text-base text-gray-600 mb-4">Produzam a representação gráfica que traduza a Tendência Não Diretiva. Que irá compor o <strong>Mural de Tendências pedagógicas brasileiras!</strong></p>
+                    <p class="text-base text-gray-600 mb-4"><strong>Materialize os sentimentos/pensamentos/inquietações em arte</strong>, produzindo uma representação gráfica sobre Tendência Não Diretiva, que irá compor o <strong>Mural de Tendências pedagógicas brasileiras!</strong></p>
                     
                     <!-- Controle do Mediador (Oculto por padrão) -->
                     <div class="mt-4 pt-4 border-t border-gray-200">
                         <button onclick="window.toggleMetaphors()" class="text-xs font-semibold bg-gray-200 hover:bg-gray-300 text-gray-600 py-1.5 px-3 rounded flex items-center gap-2 transition-colors">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
-                            Controle do Mediador
+                            
                         </button>
                         
                         <div id="metaphors-container" class="hidden mt-3 flex gap-2 flex-wrap transition-all">
