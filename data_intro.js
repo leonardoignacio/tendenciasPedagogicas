@@ -5,7 +5,7 @@ const dataIntro = {
     icon: `<svg class="w-5 h-5 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>`,
     content: `
         <div class="bg-white rounded-xl shadow-sm p-6 lg:p-8 border-t-4 border-brand-blue card-hover">
-            <h2 class="text-2xl font-bold text-brand-blue mb-2">Tendência Renovadora Não Diretiva</h2>
+            <h2 class="text-2xl font-bold text-brand-blue mb-2">Renovadora Não Diretiva</h2>
             <p class="text-gray-600 mb-8 text-lg">O que é <strong>Tendência Renovadora Não Diretiva</strong>, como está envolvida em nossa prática escolar?</p>
             
             <!-- Acordeon 1 -->
