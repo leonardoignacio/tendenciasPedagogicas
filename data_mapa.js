@@ -41,7 +41,7 @@ const dataMapa = {
                         <h3 class="font-bold text-green-700 flex items-center gap-2 text-xl">
                             <span class="text-2xl">🎯</span> NECESSIDADES
                         </h3>
-                        <p class="text-sm text-green-600 mt-1 font-medium">O que o faria ficar (Intencionalidade)?</p>
+                        <p class="text-sm text-green-600 mt-1 font-medium">O que o faria ficar?(Intencionalidade)</p>
                     </div>
                     <div class="p-6 bg-white rounded-b-xl">
                         <ul class="text-base lg:text-lg text-gray-700 space-y-5 list-disc pl-5 leading-relaxed">
