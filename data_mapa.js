@@ -24,12 +24,12 @@ const dataMapa = {
                     <div class="p-6 bg-white rounded-b-xl">
                         <ul class="text-base lg:text-lg text-gray-700 space-y-5 list-disc pl-5 leading-relaxed">
                             <li>Quais são as maiores insegurança dos estudantes em relação ao futuro?</li>
-                            <li>Em que pontos podem sentir que as ações da escola não conectam em suas vida?</li>
-                            <li>Qual peso ou pressão de fora ele carrega em silêncio?</li>
+                            <li>Quais pontos da "prática escolar" podem sentir que não se conectam às suas vidas?</li>
+                            <li>Qual peso ou pressão de fora da escola eles carregam em silêncio?</li>
                             <pre>
-                            .
-                            .
-                            .
+            .
+            .
+            .
                             </pre>
                         </ul>
                     </div>
@@ -49,9 +49,9 @@ const dataMapa = {
                             <li>Que tipo de escuta eles precisam que ainda não oferecemos?</li>
                             <li>Como os educadores podem atuar mais como "facilitadores"?</li>
                             <pre>
-                            .
-                            .
-                            .
+            .
+            .
+            .
                             </pre>
                         </ul>
                     </div>
