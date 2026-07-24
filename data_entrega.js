@@ -16,7 +16,8 @@ const dataEntrega = {
                     - Meditem nos insights do <strong>Mapa de Empatia</strong><br>
                     - Amarre tudo com as <strong>perguntas norteadoras</strong>.</p><br>
                     <div class="bg-white p-4 rounded border text-sm text-gray-600 italic shadow-sm">
-                        <strong class="text-gray-700">Checklist:</strong> Conceito, Papel do estudante e Papel do Docente. <br> Insights do Mapa de Empatia.
+                        <strong class="text-gray-700">Checklist: Perguntas Norteadoras</strong>...<br> 
+                        Papel da escola... Centro do Processo... Ocorre Aprendizagem... Papel do Docente... Papel do estudante.<br>
                     </div>
                 </div>
 
