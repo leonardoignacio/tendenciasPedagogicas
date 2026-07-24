@@ -8,19 +8,37 @@ const tabsContainer = document.getElementById('tabs-container');
 const contentContainer = document.getElementById('app-content');
 const timerElement = document.getElementById('timer');
 
-// Renderiza as Abas no Header
+// Elementos do Menu Lateral
+const sidebar = document.getElementById('sidebar');
+const sidebarOverlay = document.getElementById('sidebar-overlay');
+const menuToggle = document.getElementById('menu-toggle');
+const menuClose = document.getElementById('menu-close');
+
+// Função para abrir/fechar o Menu Lateral
+function toggleMenu() {
+    sidebar.classList.toggle('-translate-x-full');
+    sidebarOverlay.classList.toggle('hidden');
+}
+
+// Eventos de clique para o Menu
+menuToggle.addEventListener('click', toggleMenu);
+menuClose.addEventListener('click', toggleMenu);
+sidebarOverlay.addEventListener('click', toggleMenu);
+
+// Renderiza as Abas no Menu Lateral
 function renderTabs() {
     tabsContainer.innerHTML = '';
     modulesData.forEach(module => {
         const btn = document.createElement('button');
-        // Estilização simplificada e adaptada para o menu superior
-        btn.className = `tab-btn px-4 md:px-6 py-4 font-semibold text-sm md:text-base text-gray-500 flex items-center gap-2 outline-none ${module.id === currentTabId ? 'active' : ''}`;
-        btn.innerHTML = `${module.icon} ${module.title}`;
+        // Estilização ajustada para lista vertical
+        btn.className = `tab-btn px-6 py-4 font-semibold text-base text-gray-600 flex items-center gap-3 outline-none ${module.id === currentTabId ? 'active' : ''}`;
+        btn.innerHTML = `${module.icon} <span>${module.title}</span>`;
         
         btn.addEventListener('click', () => {
             currentTabId = module.id;
             renderTabs(); 
-            renderContent(); 
+            renderContent();
+            toggleMenu(); // Fecha o menu lateral automaticamente ao selecionar
         });
         
         tabsContainer.appendChild(btn);

@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Ocultar a barra de rolagem nas abas para telas menores, mas permitir o scroll */
+/* Ocultar a barra de rolagem geral (opcional para um visual mais limpo na SPA) */
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
@@ -11,17 +11,25 @@ html {
     scrollbar-width: none;
 }
 
-/* Estilo das abas no novo menu ancorado */
+/* Estilo das abas reestruturado para o menu vertical esquerdo */
 .tab-btn {
     transition: all 0.3s ease;
-    border-bottom: 3px solid transparent;
-    white-space: nowrap;
+    border-left: 4px solid transparent;
+    width: 100%;
+    text-align: left;
+    white-space: normal;
 }
 
 .tab-btn.active {
-    border-bottom: 3px solid #F97316; /* brand-orange */
+    border-left: 4px solid #F97316; /* brand-orange */
     color: #1E3A8A; /* brand-blue */
     font-weight: 700;
+    background-color: #EFF6FF; /* blue-50 */
+}
+
+.tab-btn:hover:not(.active) {
+    background-color: #F8FAFC; /* brand-light */
+    color: #1E3A8A;
 }
 
 /* Animações de renderização */

@@ -22,31 +22,45 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-brand-light text-gray-800 font-sans min-h-screen flex flex-col">
+<body class="bg-brand-light text-gray-800 font-sans min-h-screen flex flex-col relative">
 
-    <!-- Header, Timer & Navegação Ancorada -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap lg:flex-nowrap justify-between items-center gap-4">
-            <!-- Logo / Título -->
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-brand-blue rounded-full flex items-center justify-center text-white font-bold text-sm">EPT</div>
-            </div>
-            
-            <!-- Tabs renderizadas dinamicamente dentro do header -->
-            <nav class="flex-grow flex justify-center order-last lg:order-none w-full lg:w-auto overflow-x-auto no-scrollbar" id="tabs-container">
-                <!-- Abas inseridas pelo JS -->
-            </nav>
-
-            <!-- Timer -->
-            <div class="flex items-center gap-2 bg-gray-100 px-3 py-1.5 rounded-lg border border-gray-200 shrink-0">
-                <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <span id="timer" class="text-xl font-mono font-bold text-gray-700 transition-colors duration-300">00:00</span>
-            </div>
+    <!-- Controles Flutuantes: Menu e Timer -->
+    <div class="fixed top-6 right-4 lg:right-6 z-40 flex flex-col items-end gap-3">
+        <!-- Botão Sanduíche -->
+        <button id="menu-toggle" class="bg-white text-brand-blue hover:text-brand-orange hover:scale-105 focus:outline-none transition-all p-3.5 rounded-full shadow-lg border border-gray-200" title="Abrir Trilha">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+        
+        <!-- Timer -->
+        <div class="bg-white/95 backdrop-blur px-3 py-1.5 rounded-lg border border-gray-200 shadow-md flex items-center gap-2">
+            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span id="timer" class="text-lg font-mono font-bold text-gray-700 transition-colors duration-300">00:00</span>
         </div>
-    </header>
+    </div>
+
+    <!-- Overlay do Menu Lateral -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity"></div>
+
+    <!-- Menu Lateral (Sidebar) -->
+    <aside id="sidebar" class="fixed top-0 left-0 w-72 h-full bg-white shadow-2xl z-50 transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col border-r border-gray-200">
+        <div class="p-5 border-b border-gray-200 flex justify-between items-center bg-brand-light">
+            <span class="font-bold text-brand-blue text-lg flex items-center gap-2">
+                <svg class="w-6 h-6 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                Trilha
+            </span>
+            <button id="menu-close" class="text-gray-400 hover:text-red-500 focus:outline-none transition-colors">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+        
+        <!-- Contêiner de Abas renderizadas dinamicamente dentro do menu -->
+        <nav class="flex flex-col py-4 overflow-y-auto w-full flex-grow gap-1" id="tabs-container">
+            <!-- Abas inseridas pelo JS -->
+        </nav>
+    </aside>
 
     <!-- Main Content Area -->
-    <main class="max-w-5xl mx-auto px-4 py-8 w-full flex-grow flex flex-col gap-6" id="app-content">
+    <main class="max-w-5xl mx-auto px-4 py-8 lg:py-10 w-full flex-grow flex flex-col gap-4" id="app-content">
         <!-- Conteúdo renderizado dinamicamente -->
     </main>
 

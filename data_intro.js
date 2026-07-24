@@ -6,7 +6,7 @@ const dataIntro = {
     content: `
         <div class="bg-white rounded-xl shadow-sm p-6 lg:p-8 border-t-4 border-brand-blue card-hover">
             <h2 class="text-2xl font-bold text-brand-blue mb-2">Tendência Renovadora Não Diretiva</h2>
-            <p class="text-gray-600 mb-8 text-lg">Nossa missão é compreender como <strong>Tendência Renovadora Não Diretiva</strong> está presente na metodologia do Senac e pode ajudar na <strong>gestão da permanência</stron>.</p>
+            <p class="text-gray-600 mb-8 text-lg">O que é <strong>Tendência Renovadora Não Diretiva</strong>, como está envolvida em nossa prática escolar?</p>
             
             <!-- Acordeon 1 -->
             <details class="group bg-blue-50 rounded-lg border border-blue-200 mb-4 cursor-pointer overflow-hidden transition-all duration-300 open:shadow-md">

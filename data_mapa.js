@@ -6,11 +6,11 @@ const dataMapa = {
     content: `
         <div class="bg-white rounded-xl shadow-sm p-6 border-t-4 border-brand-orange card-hover">
             <div class="flex justify-between items-center mb-6">
-                <h2 class="text-2xl font-bold text-brand-blue">O estudante "Acolhido, mas Evasivo"</h2>
+                <h2 class="text-2xl font-bold text-brand-blue">MAPA DE EMPATIA - O estudante "Acolhido, mas Evasivo"</h2>
                 <span class="bg-orange-100 text-brand-orange font-bold px-3 py-1 rounded-full text-sm">Tempo: 10m</span>
             </div>
             
-            <p class="text-gray-600 mb-8 text-lg">Usem a lente da <strong>Tendência Não Diretiva</strong> para <em>gerar insights em post-its e colem diretamente na lousa.</em></p>
+            <p class="text-gray-600 mb-8 text-lg">Usem a lente da <strong>Tendência Renovadora Não Diretiva</strong> para <em>gerar <strong>insights</strong> e construir o MAPA DE EMPATIA.</em></p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Coluna Dores -->
@@ -24,7 +24,7 @@ const dataMapa = {
                     <div class="p-6 bg-white rounded-b-xl">
                         <ul class="text-base lg:text-lg text-gray-700 space-y-5 list-disc pl-5 leading-relaxed">
                             <li>Quais são as maiores insegurança dos estudantes em relação ao futuro?</li>
-                            <li>Quais pontos da "prática escolar" podem sentir que não se conectam às suas vidas?</li>
+                            <li>Quais pontos da "prática escolar" eles podem sentir que não se conectam às suas vidas?</li>
                             <li>Qual peso ou pressão de fora da escola eles carregam em silêncio?</li>
                             <pre>
             .
@@ -41,7 +41,7 @@ const dataMapa = {
                         <h3 class="font-bold text-green-700 flex items-center gap-2 text-xl">
                             <span class="text-2xl">🎯</span> NECESSIDADES
                         </h3>
-                        <p class="text-sm text-green-600 mt-1 font-medium">O que o faria ficar?(Intencionalidade)</p>
+                        <p class="text-sm text-green-600 mt-1 font-medium">O que o ajudaria permanecer?(Intencionalidade)</p>
                     </div>
                     <div class="p-6 bg-white rounded-b-xl">
                         <ul class="text-base lg:text-lg text-gray-700 space-y-5 list-disc pl-5 leading-relaxed">

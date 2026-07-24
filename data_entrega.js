@@ -6,12 +6,12 @@ const dataEntrega = {
     content: `
         <div class="bg-white rounded-xl shadow-sm p-6 lg:p-8 border-t-4 border-brand-blue card-hover">
             <h2 class="text-2xl font-bold text-brand-blue mb-4">Síntese e Entrega</h2>
-            <p class="text-gray-600 mb-6 text-lg">Contrução do Pitch! Organizem-se para otimizar o tempo restante...</p>
+            <p class="text-gray-600 mb-6 text-lg">Contrução do <strong>Pitch(5m)</strong>! Organize o grupo para otimizar o tempo restante...</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-4">
                 <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm relative">
                     <div class="absolute -top-4 -left-4 w-10 h-10 bg-brand-orange text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">1</div>
-                    <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Apresentação (5 min)</h3>
+                    <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Apresentação</h3>
                     - Meditem nos insights do Mapa de Empatia.<br>
                     - Aprofundam-se no conceito da Tendência Renovadora Não Diretiva.<br>
                     - Amarre as questões norteadoras com a apresentação.</p><br>
