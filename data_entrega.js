@@ -6,24 +6,24 @@ const dataEntrega = {
     content: `
         <div class="bg-white rounded-xl shadow-sm p-6 lg:p-8 border-t-4 border-brand-blue card-hover">
             <h2 class="text-2xl font-bold text-brand-blue mb-4">Síntese e Entrega</h2>
-            <p class="text-gray-600 mb-6 text-lg">Contrução do <strong>Pitch(5m)</strong>! Organize o grupo para otimizar o tempo restante...</p>
+            <p class="text-gray-600 mb-6 text-lg"><strong>Contrução Coletiva - Tendência Renovadora Não Diretiva</strong><br> Organize o grupo para otimizar o tempo restante...</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-4">
                 <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm relative">
                     <div class="absolute -top-4 -left-4 w-10 h-10 bg-brand-orange text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">1</div>
-                    <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Apresentação</h3>
-                    - Meditem nos insights do Mapa de Empatia.<br>
-                    - Aprofundam-se no conceito da Tendência Renovadora Não Diretiva.<br>
-                    - Amarre as questões norteadoras com a apresentação.</p><br>
+                    <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Resultado da Pesquisa - Pitch(5m)</h3>
+                    - Apresentem o conceito <strong> - citem as fontes</strong>.<br>
+                    - Meditem nos insights do <strong>Mapa de Empatia</strong><br>
+                    - Amarre tudo com as <strong>perguntas norteadoras</strong>.</p><br>
                     <div class="bg-white p-4 rounded border text-sm text-gray-600 italic shadow-sm">
-                        <strong class="text-gray-700">Checklist:</strong> Papel da escola, Centro do processo, Aprendizagem e Papel do Professor.
+                        <strong class="text-gray-700">Checklist:</strong> Conceito, Papel do estudante e Papel do Docente. <br> Insights do Mapa de Empatia.
                     </div>
                 </div>
 
                 <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm relative">
                     <div class="absolute -top-4 -left-4 w-10 h-10 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">2</div>
                     <h3 class="font-bold text-gray-800 mb-3 ml-4 text-lg">Produção Gráfica(Painel)</h3>
-                    <p class="text-base text-gray-600 mb-4"><strong>Materialize os sentimentos/pensamentos/inquietações em arte</strong>, produzindo uma representação gráfica sobre Tendência Não Diretiva, que irá compor o <strong>Mural de Tendências pedagógicas brasileiras!</strong></p>
+                    <p class="text-base text-gray-600 mb-4"><strong>Materialize os sentimentos | pensamentos |inquietações em arte</strong>, produza uma <strong>representação gráfica</strong> sobre o tema, que irá compor o <strong>Mural de Tendências Pedagógicas Brasileiras!</strong></p>
                     
                     <!-- Controle do Mediador (Oculto por padrão) -->
                     <div class="mt-4 pt-4 border-t border-gray-200">
